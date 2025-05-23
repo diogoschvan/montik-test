@@ -30,13 +30,14 @@ As funcionalidades abaixo foram consideradas, mas optou-se por priorizar a entre
 2. Clone o projeto e abra a pasta
 
 3. Importe o banco de dados:
+   senha:root
    mysql -u root -p < montik.sql
 
 4. Inicie o servidor:
-	php -S localhost:8000
+   php -S localhost:8000
 
 5. Acesse no navegador:
-	http://localhost:8000/
+   http://localhost:8000/
 
 Teste do webhook
 Rota -> POST http://localhost:8000/webhook/pedido/{id}
